@@ -1,10 +1,11 @@
 import "./App.css";
+import { Container } from "./components/styles/Container.styled";
 
 const App = () => {
   return (
-    <div className="App">
+    <Container>
       <h1>Testing 1, 2, 3...</h1>
-    </div>
+    </Container>
   );
 };
 
