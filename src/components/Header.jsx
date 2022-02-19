@@ -1,10 +1,20 @@
+import { StyledHeader } from "./styles/Header.styled";
+import { Nav } from "./styles/Header.styled"
+import { Logo } from "./styles/Header.styled"
+import { Container } from "./styles/Container.styled";
+import { Button } from "./styles/Button.styled";
 
-import { StyledHeader } from './styles/Header.styled'
+
 
 function Header() {
   return (
     <StyledHeader>
-      <h1>Hubble</h1>
+      <Container>
+        <Nav>
+          <Logo src="src\public\assets\logo.svg" alt="Logo"/>
+          <Button>Try it for free!</Button>
+        </Nav>
+      </Container>
     </StyledHeader>
   );
 }
