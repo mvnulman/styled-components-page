@@ -8,7 +8,7 @@ function Header() {
     <StyledHeader>
       <Container>
         <Nav>
-          <Logo src="src\public\assets\logo.svg" alt="Logo" />
+          <Logo src="src\public\logo.svg" alt="Logo" />
           <Button>Try it free</Button>
         </Nav>
 
@@ -27,7 +27,7 @@ function Header() {
             </Button>
           </div>
 
-          <Image src="src\public\assets\illustration-mockups.svg" alt="mockups" />
+          <Image src="src\public\illustration-mockups.svg" alt="mockups" />
         </Flex>
       </Container>
     </StyledHeader>
