@@ -1,9 +1,10 @@
 import { Container } from "./styles/Container.styled";
 import { Flex } from "./styles/Flex.styled";
+import { StyledFooter } from "./styles/Footer.styled";
 
 const Footer = () => {
   return (
-    <div>
+    <StyledFooter>
       <Container>
         <img src="src\public\logo_white.svg" alt="white logo" />
 
@@ -33,8 +34,9 @@ const Footer = () => {
 
         <p>&copy; 2022 Huddle. All Rights reserved</p>
       </Container>
-    </div>
+    </StyledFooter>
   );
 };
 
 export default Footer;
+
