@@ -1,5 +1,10 @@
-# Styled Component WebPage
-Project to learn and demonstrate good practices of using styled-components!
+# Humble webpage - Styled Components
+
+### Project developed to learn and demonstrate good practices of using styled-components!
+
+![screencapture-localhost-3000-2022-02-22-17_30_17](https://user-images.githubusercontent.com/63374582/155164922-09cc71af-4fe2-443a-a82f-40aa9bfdfbf7.png)
+
+
 
 ## Technologies
 
